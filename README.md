@@ -1,5 +1,5 @@
 ## JRS Coding School
 
-## Blog Post Project
+### Blog Post Project
 
-[Live Demo]
+[Live Demo](https://michaelgreco7.github.io/Blog-Post/)
