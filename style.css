@@ -1,1 +1,22 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  background: rgba(64, 58, 60, 0.13);
+}
 
+header {
+  font-size: 2em;
+  text-align: center;
+  border: solid 1px black;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-items: start;
+}
