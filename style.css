@@ -104,3 +104,41 @@ p {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.social-media {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.social-media i {
+  font-size: 3rem;
+  transition: 0.5s;
+}
+
+.fa-facebook-square {
+  color: #3b5999;
+}
+
+.fa-twitter-square {
+  color: #55acee;
+}
+
+.fa-instagram {
+  color: #e6683c;
+}
+
+.fa-google-plus-square {
+  color: #dd4b39;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-instagram:hover,
+.fa-google-plus-square:hover {
+  color: slateblue;
+}
