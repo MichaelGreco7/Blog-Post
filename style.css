@@ -50,7 +50,7 @@ section {
 }
 
 .card {
-  width: 45rem;
+  width: 40rem;
   background-color: #a2a7af;
   display: flex;
   flex-direction: column;
